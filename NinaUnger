@@ -1,0 +1,15 @@
+My Assumptions:
+I worked with the wordpress default theme twentytwenty, and decided to not create a child theme for this task.
+I created the wordpress database wp-test-schema. the default setup did not let me use "root" for the password. so i left it blank.(i could change it through the table)
+
+Files I created/changed:
+
+1. I created a new php file named pubPlus.php
+this file is for the plugin.
+I located it in a new pubPlus plugin folder
+..\wordpress\wp-content\plugins\pubPlus\pubPlus.php
+2.I created a javascript file named getQueryStringParameter.js
+..\wordpress\wp-content\themes\twentytwenty\assets\js\getQueryStringParameter.js
+3.I modified the style.css theme file
+C:\xampp\htdocs\wordpress\wp-content\themes\twentytwenty\style.css
+
